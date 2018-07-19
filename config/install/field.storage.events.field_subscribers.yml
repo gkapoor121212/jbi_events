@@ -1,0 +1,21 @@
+uuid: 8166d070-cff3-4dee-8b1a-7fd02b0fe80f
+langcode: en
+status: true
+dependencies:
+  module:
+    - jbi_events
+id: events.field_subscribers
+field_name: field_subscribers
+entity_type: events
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

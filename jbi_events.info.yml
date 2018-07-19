@@ -1,0 +1,5 @@
+name: 'JBI Events'
+type: module
+description: 'Provides events and subscriptions storage entities.'
+core: 8.x
+package: 'Custom'

@@ -1,0 +1,49 @@
+uuid: 2b89ecf7-261c-40c0-ad09-eca253373d46
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.events.events.field_event_category
+    - field.field.events.events.field_subscribers
+  module:
+    - jbi_events
+id: events.events.default
+targetEntityType: events
+bundle: events
+mode: default
+content:
+  field_event_category:
+    weight: 6
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_subscribers:
+    weight: 7
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  name:
+    type: string_textfield
+    weight: -4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  user_id:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden: {  }

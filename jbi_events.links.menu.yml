@@ -1,0 +1,14 @@
+
+# Events menu items definition
+entity.events.collection:
+  title: 'Events list'
+  route_name: entity.events.collection
+  description: 'List Events entities'
+  parent: system.admin_structure
+  weight: 100
+
+events.admin.structure.settings:
+  title: 'Events settings'
+  description: 'Configure Events entities'
+  route_name: events.settings
+  parent: system.admin_structure

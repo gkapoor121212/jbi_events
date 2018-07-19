@@ -1,0 +1,15 @@
+jbi_events.events_list_controller_hello:
+  path: '/jbi-events'
+  defaults:
+    _controller: '\Drupal\jbi_events\Controller\EventsListController::content'
+    _title: 'Events'
+  requirements:
+    _permission: 'access content'
+
+jbi_events.subscribe_form:
+  path: '/admin/structure/events/{event_id}/subscribe'
+  defaults:
+    _form: '\Drupal\jbi_events\Form\EventsSubscribeForm'
+    _title: 'Event Subscribe Form'
+  requirements:
+    _access: 'TRUE'

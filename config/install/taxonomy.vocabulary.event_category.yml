@@ -1,0 +1,9 @@
+uuid: e6ea5147-b644-4fff-94bc-b55584967c71
+langcode: en
+status: true
+dependencies: {  }
+name: 'Event Category'
+vid: event_category
+description: 'Use this to store event categories.'
+hierarchy: 0
+weight: 0

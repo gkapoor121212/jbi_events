@@ -1,0 +1,20 @@
+uuid: cd6b6b5d-2628-4204-9496-b0819e255b3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.events.field_subscribers
+  module:
+    - jbi_events
+id: events.events.field_subscribers
+field_name: field_subscribers
+entity_type: events
+bundle: events
+label: Subscribers
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
